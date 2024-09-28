@@ -15,8 +15,19 @@ input {
 .todo-container {
     text-align: left;
 }
-
 .ak-btn {
     min-width: 50px;
-    background-color: aqua;
+    background-color: aqua; 
+    color: white;
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+.ak-btn.add {
+    background-color: blue; 
+}
+
+.ak-btn.edit {
+    background-color: yellow;
 }
